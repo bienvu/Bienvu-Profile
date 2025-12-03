@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
-import {caseStudies} from "../data/data";
+import ProjectsList from "./ProjectsList";
+import { caseStudies } from "../data/data";
 
 interface CardItem {
   title: string;
@@ -34,21 +35,9 @@ const Page = async () => {
         className='mt-6 text-normal text-center'
         dangerouslySetInnerHTML={{ __html: "Happy to contribute to all projects, and I’m proud to share all of it with you!" }}></p>
       {caseStudies && (
-        <div className='mt-16 sm:mt-20'>
-          <ul className='grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3'>
-            {caseStudies.map((item: CardItem, i: number) => (
-              <Card
-                key={i}
-                id={i}
-                title={item.title}
-                content={item.content}
-                link={item.link.url}
-                type={item.type}
-                image={item.image}
-              />
-            ))}
-          </ul>
-        </div>
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <ProjectsList projects={caseStudies} />
+        </React.Suspense>
       )}
     </div>
   );

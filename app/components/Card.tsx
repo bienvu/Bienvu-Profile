@@ -21,8 +21,8 @@ const Card = ({ id, title, content, link, type, image }: Card) => {
         height={75}
         alt={title}
       />
-      <h2 className='mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100 uppercase'>
-        <div className='absolute z-0 transition scale-95 bg-white  -inset-y-6 -inset-x-4 shadow-xl group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl'></div>
+      <h2 className='mt-6 text-base font-semibold text-zinc-800 dark:text-black uppercase'>
+        <div className='absolute z-0 transition scale-95 bg-white  -inset-y-6 -inset-x-4 shadow-xl group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl'></div>
         <a target='_blank' href={link}>
           <span className='absolute inset-0 z-20'></span>
           {/* <span className='relative z-10 mr-2 border-slate-500 border-2 rounded-full inline-block text-center w-[28px]'>
@@ -31,12 +31,12 @@ const Card = ({ id, title, content, link, type, image }: Card) => {
           <span className='relative z-10'>{title}</span> */}
         </a>
       </h2>
-      
-      <p
-        className='relative z-10  text-small'
+
+      <div
+        className='relative z-10  text-small dark:text-zinc-900'
         dangerouslySetInnerHTML={{
           __html: content,
-        }}></p>
+        }}></div>
 
       {/* <div className='relative z-10 flex text-tiny mb-2'>
         <svg
@@ -48,11 +48,11 @@ const Card = ({ id, title, content, link, type, image }: Card) => {
             fill='currentColor'></path>
         </svg>
         <span className='ml-2'>{link}</span>
-      </div>
-      <span className='relative z-10 text-tiny flex'>
+      </div> */}
+      <span className='relative z-10 text-tiny flex dark:text-zinc-900 mt-2'>
         <span className='flex-none w-6 h-6 text-center'>#</span>
-        <span className='ml-2'>{type.join(", ")}</span>
-      </span> */}
+        <span className=' '>{type.join(", ")}</span>
+      </span>
     </li>
   );
 };

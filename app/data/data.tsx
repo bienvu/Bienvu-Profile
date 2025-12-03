@@ -9,15 +9,15 @@ export const navMenu = [
   },
   {
     href: "/projects",
-    title: "Case Studies",
+    title: "Projects",
   },
   {
     href: "/blogs",
-    title: "Notes",
+    title: "Blogs",
   },
   {
-    href: "tel:0965294518",
-    title: "🤙 Call Me!",
+    href: "https://drive.google.com/file/d/1ij8mCQmEVv48DI0qsfO7MqtSVipOxFIp/view",
+    title: "My Resume",
   },
 ];
 
@@ -363,7 +363,7 @@ export const caseStudies = [
       target: ''
     },
     type: ['Wordpress', 'Javascript'],
-    image: 'https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/482005732_1039687121536802_5531002345627907151_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=zIJHzXZj_1YQ7kNvwFFfl0y&_nc_oc=AdlLILfX-m91EFiwQnDf-MRJ0QN1oxRNdzqH-L37vYUFGaTrHJvNavs_yUBt8s7dHyg&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=fOG3zsrJjbExqexIGlX9YA&oh=00_AfjU8yRBF4va7QYfzJI89u79m9xx2-IbYod7rA9W_FcQJQ&oe=69267860'
+    image: 'https://cdn.brandfetch.io/idJsv8_PeM/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1759826768848'
   },
   {
     title: 'BY CHARLOTTE',
@@ -374,7 +374,7 @@ export const caseStudies = [
       target: ''
     },
     type: ['Shopify'],
-    image: 'https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/526581243_1082067164016198_5900361033741274875_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=3x1SiEl5VpYQ7kNvwGfHj0F&_nc_oc=AdkX-ImvGByfmyqSIyXwxCY0miUSDQZ59bPiQM4lmzJE9eOK_WdOvc12bS2tSPqjGJs&_nc_zt=23&_nc_ht=scontent.fhan17-1.fna&_nc_gid=CdskN-lykNYS7hOFmaks4g&oh=00_AfjVdHEiM-KBn_NWf26U5yC1hJEAhieeNAU5ynJ6VFdJqg&oe=69267023'
+    image: 'https://cdn.brandfetch.io/idmi4LXFlC/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1761994710232'
   },
   {
     title: 'WGEA',

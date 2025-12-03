@@ -18,7 +18,7 @@ const Hero = () => {
               </span>{" "}
               with{" "}
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500'>
-                12+ years of experience 
+                12+ years experience
               </span>{" "}
               of {" "}
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500'>
